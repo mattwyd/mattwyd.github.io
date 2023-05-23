@@ -105,7 +105,7 @@ export default function Home() {
         <div>
           <h3 className='text-3xl py-1 text-color'>Projects</h3>
           <p className='text-md py-2 leading-6'> 
-            Over the past five years, I've developed a diverse range of projects using various languages and technologies. I'm excited to be able to showcase some of these here for you.
+            Over the past five years, I&apos;&apos;ve developed a diverse range of projects using various languages and technologies. I&apos;m excited to be able to showcase some of these here for you.
           </p>
         </div>
       
@@ -117,7 +117,7 @@ export default function Home() {
                 <Image src={hewbotImg} alt='hewbot' height={128} width={128} />
           </div>
           <p className='text-md py-2 leading-6'> 
-            Over the past five years, I've developed a diverse range of projects using various languages and technologies. I'm excited to be able to showcase some of these here for you.
+            Over the past five years, I&apos;ve developed a diverse range of projects using various languages and technologies. I&apos;m excited to be able to showcase some of these here for you.
           </p>
       </div>
       </section>
