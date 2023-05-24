@@ -17,7 +17,7 @@ export default function Home() {
     <main className='bg-gradient-to-t from-slate-800 to-slate-700 px-10 '>
       <section className="min-h-screen">
         <nav className="py-10 mb-14 flex justify-between md:mx-10">
-          <h1 className='text-sm '> page up button, fade from a blue texture to just deep sea blue </h1>
+          <h1 className='text-sm '> br </h1>
          
           <ul className='flex items-center'>
             <li>
@@ -37,7 +37,7 @@ export default function Home() {
           Software Developer
           </h3>
           <p className='text-md py-5 leading-8 max-w-xl mx-auto md:text-xl '>
-          a software developer based in Toronto, 
+          Hi I am a developer based in Toronto, 
           <span className = 'text-cyan-400'> passionate </span> 
           about continuous learning and 
           <span className = 'text-cyan-400'> problem-solving. </span> 
@@ -47,48 +47,48 @@ export default function Home() {
           </p>
         </div>
         <div className='text-6xl flex justify-center gap-16'>
-          <AiFillMail />
-          <AiFillGithub />
-          <AiFillLinkedin />
+          <a href='mailto:mattproct@gmail.com'><AiFillMail /></a>
+          <a href='http://www.github.com/mattwyd'><AiFillGithub /></a>
+          <a href='https://www.linkedin.com/in/matt-proctor-138bbb252/'><AiFillLinkedin /></a>
         </div>
       </section>
 
-    <section style={{backgroundColor: "pink"}}>
-        <h3 className ='text-3xl py-1'>My Skillset  </h3>
-        <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
-          <AiFillCode className = 'justify-center text-9xl' /> 
-          <h3 className='text-l font-medium pt-8 '>Languages</h3>
-          <h1 className=''>that I have used!</h1>
+    <section className="min-h-screen flex flex-col justify-center items-center ">
+        <h3 className ='text-3xl py-8'>My Skillset  </h3>
+        <div className='flex justify-center gap-8'>
+          <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
+            <AiFillCode className = 'justify-center text-9xl' /> 
+            <h3 className='text-l font-medium pt-8 py-3'>Languages</h3>
 
-          <p className='py-1 text-cyan-200'>C++</p>
-          <p className='py-1 text-cyan-300'>Java</p>
-          <p className='py-1 text-cyan-400'>JavaScript</p>
-          <p className='py-1 text-cyan-500'>SQL</p>
-          <p className='py-1 text-cyan-600'>Python3</p>
-          <p className='py-1 text-cyan-600'>    </p>
-        </div>
-        <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
-          <p>      </p>
-          <GoServer className = 'justify-center text-9xl' /> 
-          <h3 className='text-l font-medium pt-8 '>Languages</h3>
-          <h1 className=''>that I have used!</h1>
+            <p className='py-1 text-cyan-300'>Java</p>
+            <p className='py-1 text-cyan-300'>Python3</p>
+            <p className='py-1 text-cyan-400'>JavaScript</p>
+            <p className='py-1 text-cyan-400'>TypeScript</p>
+            <p className='py-1 text-cyan-500'>C++</p>
+            <p className='py-1 text-cyan-500'>C#</p>
+          </div>
 
-          <p className='py-1 text-cyan-200'>C++</p>
-          <p className='py-1 text-cyan-300'>Java</p>
-          <p className='py-1 text-cyan-400'>JavaScript</p>
-          <p className='py-1 text-cyan-500'>SQL</p>
-          <p className='py-1 text-cyan-600'>Python3</p>
-        </div>
-        <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
-          <BiGitBranch className = 'justify-center text-9xl' /> 
-          <h3 className='text-l font-medium pt-8 '>Languages</h3>
-          <h1 className=''>that I have used!</h1>
+          <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
+            <GoServer className = 'justify-center text-9xl' /> 
+            <h3 className='text-l font-medium pt-8 py-3'>Backend & Tools</h3>
 
-          <p className='py-1 text-cyan-200'>C++</p>
-          <p className='py-1 text-cyan-300'>Java</p>
-          <p className='py-1 text-cyan-400'>JavaScript</p>
-          <p className='py-1 text-cyan-500'>SQL</p>
-          <p className='py-1 text-cyan-600'>Python3</p>
+            <p className='py-1 text-cyan-300'>SQL</p>
+            <p className='py-1 text-cyan-300'>MongoDB</p>
+            <p className='py-1 text-cyan-400'>Node</p>
+            <p className='py-1 text-cyan-400'>Express</p>
+            <p className='py-1 text-cyan-400'>Docker</p>
+          </div>
+          <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
+            <BiGitBranch className = 'justify-center text-9xl' /> 
+            <h3 className='text-l font-medium pt-8 py-3'>Front End</h3>
+
+            <p className='py-1 text-cyan-300'>React</p>
+            <p className='py-1 text-cyan-300'>Tailwind</p>
+            <p className='py-1 text-cyan-400'>Pug</p>
+            <p className='py-1 text-cyan-400'>HTML5</p>
+            <p className='py-1 text-cyan-400'>CSS3</p>
+
+          </div>
         </div>
     </section>
 
@@ -97,29 +97,35 @@ export default function Home() {
 
 
 
-      <section className = 'm-4 max-w-xl mx-80 justify-center  '>
-        <div> 
-          <h3 className ='text-3xl py-1'> Projects </h3>        
-        </div>
+    <section className=" flex flex-col justify-center items-center mx-40  ">
+    <h3 className="text-3xl ">Projects</h3>
+      <p className="text-md py-6 leading-6">
+        Over the past five years, I&apos;ve developed a diverse range of projects using various languages and technologies.
+      </p>
 
-        <div>
-          <h3 className='text-3xl py-1 text-color'>Projects</h3>
-          <p className='text-md py-2 leading-6'> 
-            Over the past five years, I&apos;&apos;ve developed a diverse range of projects using various languages and technologies. I&apos;m excited to be able to showcase some of these here for you.
-          </p>
-        </div>
-      
-
-
-      <div className = 'm-0 p-0'>
-        <h3 className='text-2xl py-1'> HewBot </h3>
-          <div className='rounded-full h-128 w-32 overflow-hidden border-white border'>
-                <Image src={hewbotImg} alt='hewbot' height={128} width={128} />
+      <div className=' bg-slate-700 rounded-lg shadow-lg p-6'>
+        <h3 className='text-2xl  py-1 text-center'>HewBot</h3>
+          <div>
+          <div className='flex rounded-full h-128 w-32 overflow-hidden border-white shadow-lg'>
+                <Image src={hewbotImg} alt='hewbot' height={128} width={128} className='mr-40'  />
+                <p>hello</p>
           </div>
-          <p className='text-md py-2 leading-6'> 
-            Over the past five years, I&apos;ve developed a diverse range of projects using various languages and technologies. I&apos;m excited to be able to showcase some of these here for you.
-          </p>
+            <p className='text-1 '>
+              Project developed using Object Oriented principles including Abstraction and Polymorphism. 
+            </p>
+            </div>
+          <h2 className='p-2'> Discord bot service written in Python using Discord API </h2>
+            <p>
+              Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user's server.
+            </p>
       </div>
+
+
+
+
+
+
+
       </section>
     </main>
     </div>
