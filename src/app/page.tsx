@@ -60,12 +60,12 @@ export default function Home() {
             <AiFillCode className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Languages</h3>
 
-            <p className='py-1 text-cyan-300'>Java</p>
             <p className='py-1 text-cyan-300'>Python3</p>
             <p className='py-1 text-cyan-400'>JavaScript</p>
             <p className='py-1 text-cyan-400'>TypeScript</p>
             <p className='py-1 text-cyan-500'>C++</p>
             <p className='py-1 text-cyan-500'>C#</p>
+            <p className='py-1 text-cyan-300'>Java</p>
           </div>
 
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
           <h2 className='p-2'> Discord bot service written in Python using Discord API </h2>
             <p>
-              Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user's server.
+              Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&appos;s server.
             </p>
       </div>
 
