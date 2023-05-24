@@ -24,7 +24,7 @@ export default function Home() {
               <BsFillMoonStarsFill className='cursor-pointer text-4xl'/>
             </li>
             <li>
-              <a className='bg-gradient-to-r from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a>
+              <a className='bg-gradient-to-r from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md href="https://mattwyd.github.io/resume.pdf" download="resume.pdf"'>Resume</a>
             </li>
           </ul>
         </nav>
