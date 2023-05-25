@@ -5,9 +5,13 @@ import headshot from '../../public/headshot.png';
 import Head from 'next/head';
 import favicon from '../../public/favicon.ico';
 import hewbotImg from '../../public/hewbot.png';
+import clouds from '../../public/clouds.png';
+import kiji from '../../public/kiji.jpg';
 import {AiFillCode} from 'react-icons/ai';
 import {GoServer} from 'react-icons/go';
 import {BiGitBranch} from 'react-icons/bi';
+
+
 
 export default function Home() {
   return (
@@ -15,16 +19,15 @@ export default function Home() {
       <title>Home</title>
         
     <main className='bg-gradient-to-t from-slate-800 to-slate-700 px-10 '>
-      <section className="min-h-screen">
-        <nav className="py-10 mb-14 flex justify-between md:mx-10">
-          <h1 className='text-sm '> br </h1>
+      <section className="">
+        <nav className="py-10 mb-14 flex justify-left ">
+          <h1 className='text-sm '> </h1>
          
           <ul className='flex items-center'>
             <li>
-              <BsFillMoonStarsFill className='cursor-pointer text-4xl'/>
             </li>
-            <li>
-              <a className='bg-gradient-to-r from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md href="https://mattwyd.github.io/resume.pdf" download="resume.pdf"'>Resume</a>
+            <li className='px-3'>
+            <a href="https://mattwyd.github.io/resume.pdf" download="resume.pdf" className='fixed top-4 right-4 lg:top-4 lg:right-4 bg-gradient-to-r from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md'>Resume</a>
             </li>
           </ul>
         </nav>
@@ -37,7 +40,7 @@ export default function Home() {
           Software Developer
           </h3>
           <p className='text-md py-5 leading-8 max-w-xl mx-auto md:text-xl '>
-          Hi I am a developer based in Toronto, 
+          I am a developer based in Toronto, 
           <span className = 'text-cyan-400'> passionate </span> 
           about continuous learning and 
           <span className = 'text-cyan-400'> problem-solving. </span> 
@@ -53,19 +56,24 @@ export default function Home() {
         </div>
       </section>
 
-    <section className="min-h-screen flex flex-col justify-center items-center ">
+<div className="flex justify-center mt--6">
+  <Image src={clouds} alt="clouds" className="w-full h-full object-cover" />
+</div>
+
+
+    <section className=" flex flex-col justify-center items-center ">
         <h3 className ='text-3xl py-8'>My Skillset  </h3>
         <div className='flex justify-center gap-8'>
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
             <AiFillCode className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Languages</h3>
 
+            <p className='py-1 text-cyan-300'>Java</p>
             <p className='py-1 text-cyan-300'>Python3</p>
             <p className='py-1 text-cyan-400'>JavaScript</p>
             <p className='py-1 text-cyan-400'>TypeScript</p>
             <p className='py-1 text-cyan-500'>C++</p>
             <p className='py-1 text-cyan-500'>C#</p>
-            <p className='py-1 text-cyan-300'>Java</p>
           </div>
 
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
@@ -95,38 +103,77 @@ export default function Home() {
 
 
 
+    <section className="flex flex-col justify-center items-center m-40">
+  <h3 className="text-3xl">Projects</h3>
+  <p className="text-md py-6 leading-6">
+    Over the past five years, I&apos;ve developed a diverse range of projects using various languages and technologies.
+  </p>
 
 
-    <section className=" flex flex-col justify-center items-center mx-40  ">
-    <h3 className="text-3xl ">Projects</h3>
-      <p className="text-md py-6 leading-6">
-        Over the past five years, I&apos;ve developed a diverse range of projects using various languages and technologies.
-      </p>
-
-      <div className=' bg-slate-700 rounded-lg shadow-lg p-6'>
-        <h3 className='text-2xl  py-1 text-center'>HewBot</h3>
-          <div>
-          <div className='flex rounded-full h-128 w-32 overflow-hidden border-white shadow-lg'>
-                <Image src={hewbotImg} alt='hewbot' height={128} width={128} className='mr-40'  />
-                <p>hello</p>
-          </div>
-            <p className='text-1 '>
-              Project developed using Object Oriented principles including Abstraction and Polymorphism. 
-            </p>
-            </div>
-          <h2 className='p-2'> Discord bot service written in Python using Discord API </h2>
-            <p>
-              Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&appos;s server.
-            </p>
+  <div className="relative bg-slate-700 rounded-lg shadow-lg p-6 ">
+  <div className="flex flex-col flex-grow">
+    <div className="flex items-center">
+      <div className="mr-6">
+        <Image src={hewbotImg} alt="hewbot" height={128} width={128} />
       </div>
+      <div>
+        <h3 className="text-2xl py-1 text-cyan-400">HewBot</h3>
+        <h3 className="text-1">
+          A Discord bot service written in Python using Discord API
+        </h3>
+      </div>
+    </div>
+    <div className="flex  flex-col justify-center">
+      <div className="py-1 ">
+        <h2>Project developed using Object Oriented principles including Abstraction and Polymorphism.</h2>
+      </div>
+      <p>
+        Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&apos;s server.
+      </p>
+    </div>
+    <a href="#" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
+  </div>
+</div>
+
+<div className="relative my-6 bg-slate-700 rounded-lg shadow-lg p-6">
+  <div className="flex flex-col flex-grow">
+    <div className="flex items-center">
+      <div className="mr-6">
+        <Image src={kiji} alt="kjiji" height={128} width={128} />
+      </div>
+      <div>
+        <h3 className="text-2xl py-1 text-cyan-400">Kiji Listing Alerts</h3>
+        <h3 className="py-1">
+          A Javascript program to periodically search kiji and send out alerts based on market value
+        </h3>
+      </div>
+    </div>
+    <div className="flex flex-col justify-center">
+      <div className="py-1 ">
+        <h2>Integrated third-party APIs to fetch real-time market data and compare it with the listings.</h2>
+      </div>
+      <p>
+         Implemented a notification system to send alerts via email or SMS when a listing matches the desired market value.
+      </p>
+    </div>
+    <a href="#" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
+  </div>
+</div>
 
 
 
 
 
+</section>
 
+<footer className=" py-16">
+  <div className="container mx-auto">
+    <div className="flex justify-center">
+      <p className="text-sm">&copy; 2023 made by matt with react</p>
+    </div>
+  </div>
+</footer>
 
-      </section>
     </main>
     </div>
   );
