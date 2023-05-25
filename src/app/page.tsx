@@ -1,4 +1,6 @@
-import {BsFillMoonStarsFill} from 'react-icons/bs';
+"use client";
+import React from 'react';
+import {BsWindowFullscreen} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillGithub, AiFillMail} from 'react-icons/ai';
 import Image from "next/image";
 import headshot from '../../public/headshot.png';
@@ -11,13 +13,10 @@ import {AiFillCode} from 'react-icons/ai';
 import {GoServer} from 'react-icons/go';
 import {BiGitBranch} from 'react-icons/bi';
 
-
-
 export default function Home() {
   return (
     <div>
-      <title>Home</title>
-        
+      <title>Hello</title>
     <main className='bg-gradient-to-t from-slate-800 to-slate-700 px-10 '>
       <section className="">
         <nav className="py-10 mb-14 flex justify-left ">
@@ -77,17 +76,7 @@ export default function Home() {
           </div>
 
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
-            <GoServer className = 'justify-center text-9xl' /> 
-            <h3 className='text-l font-medium pt-8 py-3'>Backend & Tools</h3>
-
-            <p className='py-1 text-cyan-300'>SQL</p>
-            <p className='py-1 text-cyan-300'>MongoDB</p>
-            <p className='py-1 text-cyan-400'>Node</p>
-            <p className='py-1 text-cyan-400'>Express</p>
-            <p className='py-1 text-cyan-400'>Docker</p>
-          </div>
-          <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
-            <BiGitBranch className = 'justify-center text-9xl' /> 
+            <BsWindowFullscreen className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Front End</h3>
 
             <p className='py-1 text-cyan-300'>React</p>
@@ -96,6 +85,16 @@ export default function Home() {
             <p className='py-1 text-cyan-400'>HTML5</p>
             <p className='py-1 text-cyan-400'>CSS3</p>
 
+          </div>
+          <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
+            <GoServer className = 'justify-center text-9xl' /> 
+            <h3 className='text-l font-medium pt-8 py-3'>Backend & Tools</h3>
+
+            <p className='py-1 text-cyan-300'>SQL</p>
+            <p className='py-1 text-cyan-300'>MongoDB</p>
+            <p className='py-1 text-cyan-400'>Node</p>
+            <p className='py-1 text-cyan-400'>Express</p>
+            <p className='py-1 text-cyan-400'>Docker</p>
           </div>
         </div>
     </section>
