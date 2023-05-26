@@ -16,7 +16,7 @@ import {BiGitBranch} from 'react-icons/bi';
 export default function Home() {
   return (
     <div>
-      <title>Hello</title>
+      <title>Hello!</title>
     <main className='bg-gradient-to-t from-slate-800 to-slate-700 px-10 '>
       <section className="">
         <nav className="py-10 mb-14 flex justify-left ">
@@ -26,7 +26,7 @@ export default function Home() {
             <li>
             </li>
             <li className='px-3'>
-            <a href="https://mattwyd.github.io/resume.pdf" download="resume.pdf" className='fixed top-4 right-4 lg:top-4 lg:right-4 bg-gradient-to-r from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md'>Resume</a>
+            <a href="https://mattwyd.github.io/resume.pdf" download="resume.pdf" className='lg:fixed top-4 right-4 lg:top-4 lg:right-4 bg-gradient-to-r from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md'>Resume</a>
             </li>
           </ul>
         </nav>
@@ -60,9 +60,9 @@ export default function Home() {
 </div>
 
 
-    <section className=" flex flex-col justify-center items-center ">
+    <section className="flex flex-col justify-center items-center ">
         <h3 className ='text-3xl py-8'>My Skillset  </h3>
-        <div className='flex justify-center gap-8'>
+        <div className='md:flex justify-center gap-8'>
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
             <AiFillCode className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Languages</h3>
@@ -102,8 +102,8 @@ export default function Home() {
 
 
 
-    <section className="flex flex-col justify-center items-center m-40">
-  <h3 className="text-3xl">Projects</h3>
+    <section className="flex flex-col justify-center items-center lg:m-40 sm:m-0">
+  <h3 className="text-3xl sm:pt-4">Projects</h3>
   <p className="text-md py-6 leading-6">
     Over the past five years, I&apos;ve developed a diverse range of projects using various languages and technologies.
   </p>
