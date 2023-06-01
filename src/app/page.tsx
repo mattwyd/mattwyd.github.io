@@ -130,7 +130,7 @@ export default function Home() {
         Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&apos;s server.
       </p>
     </div>
-    <a href="#" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
+    <a href="https://github.com/mattwyd/kla" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
   </div>
 </div>
 
@@ -155,7 +155,7 @@ export default function Home() {
          Implemented a notification system to send alerts via email or SMS when a listing matches the desired market value.
       </p>
     </div>
-    <a href="#" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
+    <a href="https://github.com/mattwyd/kla" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
   </div>
 </div>
 
