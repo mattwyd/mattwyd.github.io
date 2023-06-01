@@ -130,7 +130,7 @@ export default function Home() {
         Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&apos;s server.
       </p>
     </div>
-    <a href="https://github.com/mattwyd/kla" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
+    <a href="https://github.com/mattwyd/hewbot" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
   </div>
 </div>
 
