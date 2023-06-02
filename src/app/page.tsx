@@ -26,7 +26,7 @@ export default function Home() {
             <li>
             </li>
             <li className='px-3'>
-            <a href="https://mattwyd.github.io/resume.pdf" download="resume.pdf" className='lg:fixed top-4 right-4 lg:top-4 lg:right-4 bg-gradient-to-r from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md'>Resume</a>
+            <a href="https://mattwyd.github.io/resume.pdf" download="resume.pdf" className='lg:fixed top-4 right-4 lg:top-4 lg:right-4 bg-gradient-to-r from-cyan-600 to-teal-600 text-3xl text-white px-4 py-2 rounded-md'>Resume</a>
             </li>
           </ul>
         </nav>
