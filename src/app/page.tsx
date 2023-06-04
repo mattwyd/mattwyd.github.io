@@ -26,7 +26,7 @@ export default function Home() {
             <li>
             </li>
             <li className='px-3'>
-            <a href="https://mattwyd.github.io/resume.pdf" download="resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r from-cyan-600 to-teal-600 text-3xl text-white px-4 py-2 rounded-md'>Resume</a>
+            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600  from-cyan-600 to-teal-600 text-3xl text-white px-4 py-2 rounded-md'>Resume</a>
             </li>
           </ul>
         </nav>
@@ -67,12 +67,12 @@ export default function Home() {
             <AiFillCode className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Languages</h3>
 
-            <p className='py-1 text-cyan-300'>Java</p>
             <p className='py-1 text-cyan-300'>Python3</p>
             <p className='py-1 text-cyan-400'>JavaScript</p>
             <p className='py-1 text-cyan-400'>TypeScript</p>
             <p className='py-1 text-cyan-500'>C++</p>
             <p className='py-1 text-cyan-500'>C#</p>
+            <p className='py-1 text-cyan-300'>Java</p>
           </div>
 
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
@@ -130,7 +130,7 @@ export default function Home() {
         Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&apos;s server.
       </p>
     </div>
-    <a href="https://github.com/mattwyd/hewbot" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
+    <a href="https://github.com/mattwyd/hewbot" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg hover:bg-slate-600">Examine</a>
   </div>
 </div>
 
@@ -155,7 +155,7 @@ export default function Home() {
          Implemented a notification system to send alerts via email or SMS when a listing matches the desired market value.
       </p>
     </div>
-    <a href="https://github.com/mattwyd/kla" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg">Examine</a>
+    <a href="https://github.com/mattwyd/kla" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg hover:bg-slate-600">Examine</a>
   </div>
 </div>
 
