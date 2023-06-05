@@ -62,7 +62,7 @@ export default function Home() {
 </div>
 
 
-    <section className="flex flex-col justify-center items-center mt-[-300px]">
+    <section className="flex flex-col justify-center items-center mt-[-350px]">
         <h3 className ='text-3xl pb-8'>My Skillset  </h3>
         <div className='md:flex justify-center gap-8'>
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
