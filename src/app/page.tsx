@@ -26,7 +26,8 @@ export default function Home() {
             <li>
             </li>
             <li className='px-3'>
-            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600  from-cyan-600 to-teal-600 text-2xl text-white px-6 py-4 rounded-md'>Resume</a>
+            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600  from-cyan-600 to-teal-600 text-2xl text-white px-4
+             py-2 rounded-md'>Resume</a>
             </li>
           </ul>
         </nav>
@@ -141,7 +142,7 @@ export default function Home() {
         <Image src={kiji} alt="kjiji" height={128} width={128} />
       </div>
       <div>
-        <h3 className="text-2xl py-1 text-cyan-400">Kiji Listing Alerts</h3>
+        <h3 className="text-2xl py-1 text-cyan-400">Kijiji Listing Alerts</h3>
         <h3 className="py-1">
           A Javascript program to periodically search kiji and send out alerts based on market value
         </h3>
