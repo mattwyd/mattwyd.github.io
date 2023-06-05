@@ -26,7 +26,7 @@ export default function Home() {
             <li>
             </li>
             <li className='px-3'>
-            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600  from-cyan-600 to-teal-600 text-2xl border text-white px-4
+            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600 hover:border  from-cyan-600 to-teal-600 text-2xl text-white px-4
              py-2 rounded-md'>Resume</a>
             </li>
           </ul>
@@ -132,7 +132,7 @@ export default function Home() {
         Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&apos;s server.
       </p>
     </div>
-    <a href="https://github.com/mattwyd/hewbot" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg hover:bg-slate-600">Examine</a>
+    <a href="https://github.com/mattwyd/hewbot" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg hover:border hover:bg-slate-600">Examine</a>
   </div>
 </div>
 
@@ -157,7 +157,7 @@ export default function Home() {
          Implemented a notification system to send alerts via email or SMS when a listing matches the desired market value.
       </p>
     </div>
-    <a href="https://github.com/mattwyd/kla" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg hover:bg-slate-600">Examine</a>
+    <a href="https://github.com/mattwyd/kla" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg hover:border hover:bg-slate-600">Examine</a>
   </div>
 </div>
 
