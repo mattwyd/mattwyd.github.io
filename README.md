@@ -1,2 +1,2 @@
 # mattwyd.github.io
-a portfolio website using react
+a portfolio website using tailwind and jsx
