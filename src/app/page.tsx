@@ -26,7 +26,7 @@ export default function Home() {
             <li>
             </li>
             <li className='px-3'>
-            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600  from-cyan-600 to-teal-600 text-2xl text-white px-4
+            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600  from-cyan-600 to-teal-600 text-2xl border text-white px-4
              py-2 rounded-md'>Resume</a>
             </li>
           </ul>
@@ -57,12 +57,13 @@ export default function Home() {
       </section>
 
 <div className="flex justify-center mt--6">
-  <Image src={clouds} alt="clouds" className="w-full h-full object-cover" />
+
+  <Image src={clouds} alt="clouds" className="w-full h-full object-cover " />
 </div>
 
 
-    <section className="flex flex-col justify-center items-center ">
-        <h3 className ='text-3xl py-8'>My Skillset  </h3>
+    <section className="flex flex-col justify-center items-center mt-[-300px]">
+        <h3 className ='text-3xl pb-8'>My Skillset  </h3>
         <div className='md:flex justify-center gap-8'>
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
             <AiFillCode className = 'justify-center text-9xl' /> 
