@@ -26,7 +26,7 @@ export default function Home() {
             <li>
             </li>
             <li className='px-3'>
-            <a href="https://mattwyd.github.io/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600 hover:border  from-cyan-600 to-teal-600 text-2xl text-white px-4
+            <a href="https://github.com/mattwyd/mattwyd.github.io/blob/main/Matthew_Proctor_Resume.pdf" download="Matthew_Proctor_Resume.pdf" className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600 hover:border  from-cyan-600 to-teal-600 text-2xl text-white px-4
              py-2 rounded-md'>Resume</a>
             </li>
           </ul>
