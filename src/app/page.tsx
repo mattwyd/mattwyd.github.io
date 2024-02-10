@@ -118,7 +118,7 @@ export default function Home() {
         <Image src={hewbotImg} alt="hewbot" height={128} width={128} />
       </div>
       <div>
-        <h3 className="text-2xl py-1 text-cyan-400">HewBot</h3>
+        <h3 className="text-2xl py-1 text-cyan-400">SnapAssistant</h3>
         <h3 className="text-1">
           A Discord bot service written in Python using Discord API
         </h3>
@@ -129,7 +129,7 @@ export default function Home() {
         <h2>Project developed using Object Oriented principles including Abstraction and Polymorphism.</h2>
       </div>
       <p>
-        Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user&apos;s server.
+        Functionality allowed users to add their own functionality as well as use matplotlib to run analysis on user data.
       </p>
     </div>
     <a href="https://github.com/mattwyd/hewbot" className="absolute top-5 right-5 bg-gradient-to-r from-cyan-600 to-teal-600 text-sm text-white px-3 py-2 rounded-lg hover:border hover:bg-slate-600">Examine</a>
