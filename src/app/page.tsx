@@ -170,7 +170,7 @@ export default function Home() {
 <footer className=" py-16">
   <div className="container mx-auto">
     <div className="flex justify-center">
-      <p className="text-sm"> </p>
+      <p className="text-sm">&copy; made by matt 2023 </p>
     </div>
   </div>
 </footer>
