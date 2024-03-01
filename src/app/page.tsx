@@ -16,18 +16,18 @@ import {BiGitBranch} from 'react-icons/bi';
 export default function Home() {
   return (
     <div>
-      <title>Hello!</title>
+      <title>mattwyd</title>
     <main className='bg-gradient-to-t from-slate-800 to-slate-700 px-10 '>
       <section className="">
-        <nav className="py-10 mb-14 flex justify-left ">
+        <nav className="py-0 mb-14 flex justify-left ">
           <h1 className='text-sm '> </h1>
          
           <ul className='flex items-center'>
             <li>
             </li>
-            <li className='px-3'>
-            <a href="Matthew_Proctor_Resume.pdf" download className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600 hover:border  from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md'>
-              Resume</a>
+            <li className='px-1'>
+            {/* <a href="Matthew_Proctor_Resume.pdf" download className='lg:fixed top-4 right-4 lg:top-8 lg:right-8 bg-gradient-to-r hover:bg-slate-600 hover:border  from-cyan-600 to-teal-600 text-2xl text-white px-4 py-2 rounded-md'>
+              Resume</a> */}
             </li>
           </ul>
         </nav>
@@ -49,7 +49,7 @@ export default function Home() {
           always eager to improve systems and create effective solutions.
           </p>
         </div>
-        <div className='text-6xl flex justify-center gap-16'>
+        <div className='text-6xl flex py-5 justify-center gap-16'>
           <a href='mailto:mattproct@gmail.com'><AiFillMail /></a>
           <a href='http://www.github.com/mattwyd'><AiFillGithub /></a>
           <a href='https://www.linkedin.com/in/matt-proctor-138bbb252/'><AiFillLinkedin /></a>
@@ -69,20 +69,20 @@ export default function Home() {
             <AiFillCode className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Languages</h3>
 
-            <p className='py-1 text-cyan-300'>Python3</p>
+            <p className='py-1 text-cyan-400'>Python3</p>
             <p className='py-1 text-cyan-400'>JavaScript</p>
             <p className='py-1 text-cyan-400'>TypeScript</p>
-            <p className='py-1 text-cyan-500'>C++</p>
-            <p className='py-1 text-cyan-500'>C#</p>
-            <p className='py-1 text-cyan-300'>Java</p>
+            <p className='py-1 text-cyan-400'>C++</p>
+            <p className='py-1 text-cyan-400'>C#</p>
+            <p className='py-1 text-cyan-400'>Java</p>
           </div>
 
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
             <BsWindowFullscreen className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Front End</h3>
 
-            <p className='py-1 text-cyan-300'>React</p>
-            <p className='py-1 text-cyan-300'>Tailwind</p>
+            <p className='py-1 text-cyan-400'>React</p>
+            <p className='py-1 text-cyan-400'>Tailwind</p>
             <p className='py-1 text-cyan-400'>Pug</p>
             <p className='py-1 text-cyan-400'>HTML5</p>
             <p className='py-1 text-cyan-400'>CSS3</p>
@@ -92,8 +92,8 @@ export default function Home() {
             <GoServer className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Backend & Tools</h3>
 
-            <p className='py-1 text-cyan-300'>SQL</p>
-            <p className='py-1 text-cyan-300'>MongoDB</p>
+            <p className='py-1 text-cyan-400'>SQL</p>
+            <p className='py-1 text-cyan-400'>MongoDB</p>
             <p className='py-1 text-cyan-400'>Node</p>
             <p className='py-1 text-cyan-400'>Express</p>
             <p className='py-1 text-cyan-400'>Docker</p>
@@ -102,7 +102,7 @@ export default function Home() {
     </section>
 
 
-
+{/* 
 
     <section className="flex flex-col justify-center items-center lg:m-40 sm:m-0">
   <h3 className="text-3xl sm:pt-4">Projects</h3>
@@ -165,12 +165,12 @@ export default function Home() {
 
 
 
-</section>
+</section> */}
 
 <footer className=" py-16">
   <div className="container mx-auto">
     <div className="flex justify-center">
-      <p className="text-sm">&copy; 2023 made by matt</p>
+      <p className="text-sm"> </p>
     </div>
   </div>
 </footer>
