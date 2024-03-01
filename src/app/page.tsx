@@ -69,19 +69,19 @@ export default function Home() {
             <AiFillCode className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Languages</h3>
 
-            <p className='py-1 text-cyan-400'>Python3</p>
-            <p className='py-1 text-cyan-400'>JavaScript</p>
+            <p className='py-1 text-cyan-400'>Python</p>
             <p className='py-1 text-cyan-400'>TypeScript</p>
-            <p className='py-1 text-cyan-400'>C++</p>
-            <p className='py-1 text-cyan-400'>C#</p>
+            <p className='py-1 text-cyan-400'>C/C#</p>
+            <p className='py-1 text-cyan-400'>Haskell</p> {/*change this to rust one day*/}
             <p className='py-1 text-cyan-400'>Java</p>
+
           </div>
 
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
             <BsWindowFullscreen className = 'justify-center text-9xl' /> 
             <h3 className='text-l font-medium pt-8 py-3'>Front End</h3>
 
-            <p className='py-1 text-cyan-400'>React</p>
+            <p className='text-bold py-1 text-cyan-400'>React</p>
             <p className='py-1 text-cyan-400'>Tailwind</p>
             <p className='py-1 text-cyan-400'>Pug</p>
             <p className='py-1 text-cyan-400'>HTML5</p>
@@ -170,7 +170,7 @@ export default function Home() {
 <footer className=" py-16">
   <div className="container mx-auto">
     <div className="flex justify-center">
-      <p className="text-sm">&copy; made by matt 2023 </p>
+      <p className="text-sm">&copy; 2023 by matt</p>
     </div>
   </div>
 </footer>
