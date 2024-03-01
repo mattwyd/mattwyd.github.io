@@ -82,10 +82,10 @@ export default function Home() {
             <h3 className='text-l font-medium pt-8 py-3'>Front End</h3>
 
             <p className='text-bold py-1 text-cyan-400'>React</p>
+            <p className='py-1 text-cyan-400'>Material UI</p>
             <p className='py-1 text-cyan-400'>Tailwind</p>
             <p className='py-1 text-cyan-400'>Pug</p>
             <p className='py-1 text-cyan-400'>HTML5</p>
-            <p className='py-1 text-cyan-400'>CSS3</p>
 
           </div>
           <div className='text-center justify-center items-center bg-slate-700 shadow-lg p-10 rounded-lg'>
